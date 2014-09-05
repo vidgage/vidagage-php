@@ -1,0 +1,23 @@
+{
+    "name": "vidgage/vidgage-php",
+    "description": "Vidgage PHP Library",
+    "keywords": [
+        "video comments",
+        "api"
+    ],
+    "homepage": "https://vidgage.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vidgage and contributors",
+            "homepage": "https://github.com/vidgage/vidagage-php/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.2",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {"VidGage\\": "src/VidGage"}
+    }
+}
